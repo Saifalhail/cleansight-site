@@ -2,24 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="The licence terms governing use of the CleanSight app, together with Apple&#x27;s Standard EULA.">
-  <meta name="theme-color" content="#101426">
+  <meta name="theme-color" content="#0B0B1A">
+  <meta property="og:title" content="CleanSight End User Licence Agreement · CleanSight">
+  <meta property="og:description" content="The licence terms governing use of the CleanSight app, together with Apple&#x27;s Standard EULA.">
+  <meta property="og:image" content="https://cleansight.ai/assets/og.png">
+  <meta property="og:type" content="website">
   <title>CleanSight End User Licence Agreement · CleanSight</title>
   <link rel="icon" href="/assets/favicon.ico">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
+  <div class="aurora" aria-hidden="true"></div>
   <a class="skip" href="#content">Skip to content</a>
-  <header class="site-header">
-    <a class="brand" href="/" aria-label="CleanSight home"><img src="/assets/mark.png" alt=""><span>CleanSight</span></a>
-    <nav aria-label="Primary navigation">
-      <a href="/privacy/">Privacy</a>
-      <a href="/terms/">Terms</a>
-      <a href="/eula/">EULA</a>
-      <a href="/support/">Support</a>
-    </nav>
+  <header class="site-header" id="header">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="CleanSight home"><img src="/assets/mark.png" alt="">Clean<span class="light">Sight</span></a>
+      <nav class="nav" aria-label="Primary"><a href="/">Story</a><a href="/features/">Features</a><a href="/how-it-works/">How it works</a><a href="/contact/">Contact</a></nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Primary (mobile)"><a href="/">Story</a><a href="/features/">Features</a><a href="/how-it-works/">How it works</a><a href="/contact/">Contact</a><a href="/#launch">Get launch access</a></nav>
   </header>
   <main id="content" class="legal-shell"><article><h1>CleanSight End User Licence Agreement</h1><p><strong>Effective date: September 20, 2026</strong></p>
 <p>CleanSight is licensed to you by BITESIGHT LTD, a company registered in England and Wales under company number 16604605, with its registered office at 5 Brayford Square, London, E1 0SG, United Kingdom.</p>
@@ -58,10 +65,15 @@
 <h2>Contact</h2>
 <p>BITESIGHT LTD Company number: 16604605 Registered office: 5 Brayford Square, London, E1 0SG, United Kingdom Support: <a href="mailto:support@cleansight.ai">support@cleansight.ai</a> Privacy: <a href="mailto:privacy@cleansight.ai">privacy@cleansight.ai</a> Website: <a href="https://cleansight.ai">cleansight.ai</a></p></article></main>
   <footer>
-    <div><img src="/assets/mark.png" alt="" width="42" height="42"><span>CleanSight</span></div>
-    <nav aria-label="Footer navigation"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/eula/">EULA</a><a href="/data-deletion/">Data &amp; deletion</a><a href="/cookies/">Cookies</a><a href="/support/">Support</a></nav>
-    <p>Photo analysis stays on your device. Limited usage, diagnostic, and purchase information is processed as described in our privacy policy.</p>
-    <p>© 2026 BITESIGHT LTD · Company 16604605 · 5 Brayford Square, London, E1 0SG, United Kingdom.</p>
+    <div class="wrap">
+      <div>
+        <a class="brand" href="/"><img src="/assets/mark.png" alt="">Clean<span class="light">Sight</span></a>
+        <p style="margin-top:10px;max-width:52ch">Photo analysis stays on your device. Limited usage, diagnostic and purchase information is processed as described in our privacy policy.</p>
+        <p style="margin-top:14px">© 2026 BITESIGHT LTD · Company 16604605 · 5 Brayford Square, London, E1 0SG, United Kingdom</p>
+      </div>
+      <nav aria-label="Footer"><a href="/features/">Features</a><a href="/how-it-works/">How it works</a><a href="/contact/">Contact</a><a href="/support/">Support</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/eula/">EULA</a><a href="/data-deletion/">Data &amp; deletion</a><a href="/cookies/">Cookies</a></nav>
+    </div>
   </footer>
+  <script src="/assets/site.js" defer></script>
 </body>
 </html>

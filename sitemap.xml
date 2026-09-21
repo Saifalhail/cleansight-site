@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://cleansight.ai/</loc></url>
+  <url><loc>https://cleansight.ai/features/</loc></url>
+  <url><loc>https://cleansight.ai/how-it-works/</loc></url>
+  <url><loc>https://cleansight.ai/contact/</loc></url>
   <url><loc>https://cleansight.ai/privacy/</loc></url>
   <url><loc>https://cleansight.ai/terms/</loc></url>
   <url><loc>https://cleansight.ai/eula/</loc></url>
