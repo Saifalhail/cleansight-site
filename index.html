@@ -3,243 +3,188 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="CleanSight finds duplicates, blurry shots, screenshots and large videos on your iPhone — never on a server — and lets you decide with a swipe. Pay once. Never weekly.">
-  <meta name="theme-color" content="#0B0B1A">
+  <meta name="description" content="Find duplicate and similar photos, blurry shots, screenshots and large videos, then review it all before you delete. Your photos are analyzed on iPhone, never uploaded.">
+  <meta name="theme-color" content="#D3DCEC">
   <meta name="apple-itunes-app" content="app-id=6814124358">
-  <meta property="og:title" content="The honest photo cleaner · CleanSight">
-  <meta property="og:description" content="CleanSight finds duplicates, blurry shots, screenshots and large videos on your iPhone — never on a server — and lets you decide with a swipe. Pay once. Never weekly.">
+  <meta property="og:title" content="Clean up photos, free up storage · CleanSight">
+  <meta property="og:description" content="Find duplicate and similar photos, blurry shots, screenshots and large videos, then review it all before you delete. Your photos are analyzed on iPhone, never uploaded.">
   <meta property="og:image" content="https://cleansight.ai/assets/og.png">
   <meta property="og:type" content="website">
-  <title>The honest photo cleaner · CleanSight</title>
+  <title>Clean up photos, free up storage · CleanSight</title>
   <link rel="icon" href="/assets/favicon.ico">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/site.css">
+  <link rel="preload" as="image" href="/assets/media/hero.jpg" fetchpriority="high">
 </head>
 <body>
   <div class="aurora" aria-hidden="true"></div>
   <a class="skip" href="#content">Skip to content</a>
   <header class="site-header" id="header">
     <div class="wrap">
-      <a class="brand" href="/" aria-label="CleanSight home"><img src="/assets/mark.png" alt="">Clean<span class="light">Sight</span></a>
-      <nav class="nav" aria-label="Primary"><a href="/" aria-current="page">Story</a><a href="/features/">Features</a><a href="/how-it-works/">How it works</a><a href="/contact/">Contact</a></nav>
+      <a class="brand" href="/" aria-label="CleanSight home"><img src="/assets/mark.png" alt="" width="32" height="32"><span class="wm">Clean<span class="light">Sight</span></span></a>
+      <nav class="nav" aria-label="Primary"><a href="/" aria-current="page">Home</a><a href="/features/">Features</a><a href="/how-it-works/">How it works</a><a href="/contact/">Contact</a></nav>
       <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     </div>
-    <nav class="mobile-nav" id="mobileNav" aria-label="Primary (mobile)"><a href="/" aria-current="page">Story</a><a href="/features/">Features</a><a href="/how-it-works/">How it works</a><a href="/contact/">Contact</a><a href="https://apps.apple.com/app/id6814124358">Download on the App Store</a></nav>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Primary (mobile)"><a href="/" aria-current="page">Home</a><a href="/features/">Features</a><a href="/how-it-works/">How it works</a><a href="/contact/">Contact</a><a href="https://apps.apple.com/app/id6814124358">Download on the App Store</a></nav>
   </header>
   <main id="content" class=""><section class="hero">
   <div class="wrap">
     <div class="hero-copy">
-      <span class="pill"><span class="dot"></span> Now on iPhone &amp; iPad · on-device, always</span>
-      <h1>Your camera roll has a story.<br><span class="grad-text">Most of it is duplicates.</span></h1>
-      <p class="lead">CleanSight reads your library on your iPhone — never on a server — finds the nine near-identical shots of the same latte, the screenshots you forgot, the 2 GB video from 2023, and lets you decide with a swipe.</p>
+      <span class="pill"><span class="dot"></span> For iPhone and iPad</span>
+      <h1>Clean up your photos <span class="grad-text">without handing them over.</span></h1>
+      <p class="lead">Find duplicates, blurry shots, screenshots and large videos, and review them before you delete. Your photos are analyzed on your iPhone, never uploaded.</p>
       <div class="actions">
-        <a class="btn btn-primary" href="https://apps.apple.com/app/id6814124358">Download on the App Store</a>
-        <a class="btn btn-glass" href="/features/">See what it finds</a>
+        <a class="btn btn-primary" id="heroCta" href="https://apps.apple.com/app/id6814124358">Download on the App Store</a>
+        <p class="store-note">Scanning is free. Results and clean-up need Pro.</p>
       </div>
-      <p class="store-note">Free to scan. Pay once, or not at all. Never $8 a week.</p>
     </div>
     <div class="hero-visual">
-      <div class="orb a"></div><div class="orb b"></div>
-      <div class="phone reveal" aria-label="CleanSight scan result preview">
-        <div class="screen">
-          <div class="scan-card">
-            <div class="pill" style="font-size:11px;padding:5px 10px"><span class="dot" style="background:var(--green);box-shadow:0 0 10px var(--green)"></span> Scan complete</div>
-            <div class="big" style="margin-top:10px">3.2 GB</div>
-            <div class="sub">recoverable in 412 flagged photos</div>
-            <div class="stat-grid"><div class="stat"><b>4,490</b>scanned</div><div class="stat"><b>0</b>uploaded</div></div>
-          </div>
-          <div class="cat"><i><svg class="ic" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></i> Duplicates <b>128</b></div>
-          <div class="cat"><i><svg class="ic" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg></i> Screenshots <b>187</b></div>
-          <div class="cat"><i><svg class="ic" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 8-6 4 6 4V8z"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg></i> Large videos <b>31</b></div>
-          <div class="cta-fake">✦ Review 412 items</div>
-        </div>
+      <video class="motion hero-loop" muted loop playsinline preload="none" width="576" height="720"
+        poster="/assets/media/hero.jpg" data-src="/assets/media/hero.mp4" data-eager
+        aria-label="An iPhone running CleanSight under a glass bell. Photos circle inside the glass while a ring of light scans them. Nothing passes through the glass."></video>
+    </div>
+  </div>
+</section>
+
+<section id="finds" class="after-stage">
+  <div class="wrap split">
+    <div class="section-head reveal">
+      <span class="chapter">One scan</span>
+      <h2>See what's really filling your storage.</h2>
+      <p class="lead">One scan checks your whole photo library and sorts the clutter into piles you can deal with one at a time.</p>
+      <p><a class="btn btn-glass" href="/features/">Everything it finds</a></p>
+    </div>
+    <div class="stage reveal">
+      <video class="motion piles" muted loop playsinline preload="none" width="576" height="600"
+        poster="/assets/media/piles.jpg" data-src="/assets/media/piles.mp4"
+        aria-label="Photos floating around an iPhone gather into four neat piles: duplicates, blurry shots, screenshots and large videos."></video>
+      <div class="legend">
+        <div><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Duplicates and similar</div>
+        <div><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg> Screenshots</div>
+        <div><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg> Blurry shots</div>
+        <div><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 8-6 4 6 4V8z"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg> Large videos</div>
       </div>
     </div>
   </div>
 </section>
 
-<section id="pileup">
+<section id="swipe" class="below">
   <div class="wrap">
-    <div class="section-head reveal">
-      <span class="chapter">Chapter 1 — The pile-up</span>
-      <h2>Nobody decides to have 4,000 photos. It just happens.</h2>
-      <p class="lead">Every week your library grows by a few hundred photos you will never look at again — and a couple you would hate to lose. The problem isn't the size. It's that you can't tell the two apart.</p>
-    </div>
-    <div class="pile reveal" aria-hidden="true">
-      <div class="card" style="--rot:-14deg;--y:18px">☕<small>09:41</small></div>
-      <div class="card" style="--rot:-7deg;--y:10px">☕<small>09:41</small></div>
-      <div class="card" style="--rot:0deg;--y:0">☕<small>09:42</small></div>
-      <div class="card" style="--rot:8deg;--y:-8px">☕<small>09:42</small></div>
-      <div class="card" style="--rot:15deg;--y:-16px">☕<small>09:42</small></div>
-    </div>
-    <div class="facts">
-      <div class="fact glass reveal"><div class="n">+340</div><p>photos a week for the average phone. Most are bursts, retakes and screenshots.</p></div>
-      <div class="fact glass reveal"><div class="n">53%</div><p>of people only delete photos when the phone forces them to — the "storage full" panic.</p></div>
-      <div class="fact glass reveal"><div class="n">30 days</div><p>deleted photos still sit in Recently Deleted, still taking space. Most cleaners don't tell you.</p></div>
-    </div>
-  </div>
-</section>
-
-<section id="honest">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <span class="chapter">Chapter 2 — The honest cleaner</span>
-      <h2>Other cleaners sell you the mess. <span class="grad-text">We just clean it.</span></h2>
-      <p class="lead">The top "cleaner" apps charge $7.99 a week, show fake "danger" warnings, and claim to free space the moment you tap delete. CleanSight was built as the opposite of that.</p>
-    </div>
-    <div class="compare">
-      <div class="col glass them reveal">
-        <div class="price-tag">The usual cleaner</div>
-        <h3>$7.99 / week</h3>
-        <ul>
-          <li>Uploads your photos to "analyse" them</li>
-          <li>"Your phone is at risk!" popups</li>
-          <li>Claims space is freed instantly</li>
-          <li>Deletes before you've looked</li>
-          <li>$416 a year if you forget to cancel</li>
-        </ul>
+    <div class="swipe-row">
+      <div class="stage reveal">
+        <video class="motion swipe" muted loop playsinline preload="none" width="480" height="480"
+          poster="/assets/media/swipe.jpg" data-src="/assets/media/swipe.mp4"
+          aria-label="A deck of photos. One card slides right to keep, the next slides left to delete."></video>
       </div>
-      <div class="col glass us reveal">
-        <div class="price-tag">CleanSight</div>
-        <h3>$49.99 once — or $4.99 a month</h3>
-        <ul>
-          <li>Every photo is analysed on your iPhone. Your photos are never uploaded.</li>
-          <li>No warnings, no countdowns, no red screens</li>
-          <li>Shows "moved to Recently Deleted" and how to finish</li>
-          <li>You review every group before anything goes</li>
-          <li>Free to scan. Cancel in one tap. Never weekly.</li>
+      <div class="section-head reveal" style="margin-bottom:0">
+        <span class="chapter">You decide</span>
+        <h2>Swipe to keep or delete.</h2>
+        <ul class="checks">
+          <li><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> You review everything before it goes. Tap any photo to preview it full-size.</li>
+          <li><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Removed photos move to Recently Deleted, where iOS holds them for 30 days.</li>
         </ul>
       </div>
     </div>
   </div>
 </section>
 
-<section id="swipe">
-  <div class="wrap">
-    <div class="demo">
-      <div class="section-head reveal" style="margin-bottom:0">
-        <span class="chapter">Chapter 3 — The swipe</span>
-        <h2>Decide in seconds. Try it.</h2>
-        <p class="lead">Swipe left to remove, right to keep. CleanSight already picked the sharpest shot of each group — you're just confirming. Nothing is deleted until you review the batch.</p>
-        <p class="faint" style="font-size:14px">The ☁︎ mark means the original is in iCloud and only a preview is on the phone — we show it everywhere so you always know what a delete actually frees.</p>
-      </div>
-      <div>
-        <div class="deck reveal" id="deck" aria-label="Interactive swipe demo">
-          <div class="swipe-card back" data-emoji="🌅"><span>🌅</span><span class="cloud">☁︎</span><div class="meta"><span>IMG_2041 · 4.1 MB</span><span>Sunset · similar ×3</span></div></div>
-          <div class="swipe-card" id="topCard"><span class="tag del">REMOVE</span><span class="tag keep">KEEP</span><span class="face">☕</span><span class="cloud">📱</span><div class="meta"><span>IMG_2040 · 3.6 MB</span><span>Near-duplicate</span></div></div>
-        </div>
-        <div class="deck-hint"><b>← Remove</b><span>drag or use the buttons</span><b>Keep →</b></div>
-        <div class="deck-actions"><button class="del" id="btnDel" aria-label="Remove">✕</button><button class="keep" id="btnKeep" aria-label="Keep">✓</button></div>
-        <div class="deck-stats"><span class="pill" id="statKept">0 kept</span><span class="pill" id="statRemoved">0 removed</span><span class="pill" id="statSaved">0 MB reclaimable</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="finds">
+<section id="privacy" class="below">
   <div class="wrap">
     <div class="section-head reveal">
-      <span class="chapter">Chapter 4 — What it finds</span>
-      <h2>Every kind of clutter. One honest list.</h2>
-      <p class="lead">Apple's own Duplicates album only catches exact copies. CleanSight groups near-duplicates — different angle, lighting, filter — and picks the keeper for you.</p>
+      <span class="chapter">Privacy</span>
+      <h2>Your photos never leave your iPhone.</h2>
+      <p class="lead">There is no CleanSight account and no photo upload. This is what stays on the device, and the little that does not.</p>
     </div>
-    <div class="grid">
-      <div class="feature glass reveal"><div class="icon"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></div><h3>Duplicates &amp; similar</h3><p>Finds the near-identical shots Apple can't. Best shot auto-picked.</p></div>
-      <div class="feature glass reveal"><div class="icon"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg></div><h3>Blurry &amp; dark</h3><p>Blurry, dark and accidental shots, with an adjustable sensitivity.</p></div>
-      <div class="feature glass reveal"><div class="icon"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg></div><h3>Screenshots &amp; recordings</h3><p>Sorted into codes, tickets, receipts and more, each with an expiry — the done ones surface first.</p></div>
-      <div class="feature glass reveal"><div class="icon"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 8-6 4 6 4V8z"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg></div><h3>Large videos</h3><p>Compress, preview the result, then keep or replace the original.</p></div>
-      <div class="feature glass reveal"><div class="icon"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 1.9 5.8a2 2 0 0 0 1.3 1.3L21 12l-5.8 1.9a2 2 0 0 0-1.3 1.3L12 21l-1.9-5.8a2 2 0 0 0-1.3-1.3L3 12l5.8-1.9a2 2 0 0 0 1.3-1.3L12 3z"/></svg></div><h3>Live Photos &amp; bursts</h3><p>Turn Live Photos into stills; keep the best frame of every burst.</p></div>
-      <div class="feature glass reveal"><div class="icon"><svg class="ic" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div><h3>Month by month</h3><p>Work through your library one month at a time and watch the completion climb.</p></div>
+    <div class="ledger2">
+      <div class="col glass reveal">
+        <span class="chapter">Stays on your iPhone</span>
+        <ul>
+          <li><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-5-5L5 21"/></svg> Your photos and videos</li>
+          <li><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg> Text read by Privacy Scan</li>
+          <li><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Everything in the Vault</li>
+        </ul>
+      </div>
+      <div class="col glass leaves reveal">
+        <span class="chapter" style="color:var(--ink3)">Leaves your iPhone</span>
+        <ul>
+          <li><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 7-8.5 8.5-5-5L2 17"/><path d="M16 7h6v6"/></svg> Usage statistics</li>
+          <li><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.7 18-8-14a2 2 0 0 0-3.4 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.7-3z"/><path d="M12 9v4M12 17h.01"/></svg> Crash reports</li>
+          <li><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 2h16v20l-3-2-2 2-3-2-3 2-2-2-3 2V2z"/><path d="M8 8h8M8 12h8M8 16h5"/></svg> Purchase data</li>
+        </ul>
+      </div>
     </div>
-    <p style="margin-top:18px"><a class="btn btn-glass" href="/features/">All fourteen, explained →</a></p>
+    <p class="fine reveal" style="margin-top:14px">The <a href="/privacy/">privacy policy</a> has the full list. <a href="/how-it-works/">How it works</a> walks through each step.</p>
   </div>
 </section>
 
-<section id="privacy">
-  <div class="wrap">
-    <div class="demo">
-      <div class="section-head reveal" style="margin-bottom:0">
-        <span class="chapter">Chapter 5 — The things you'd rather not have in there</span>
-        <h2>Privacy Scan finds the screenshot of your passport.</h2>
-        <p class="lead">On-device text recognition looks for ID cards, payment cards, passwords and one-time codes hiding in your photos. Move them to a Face ID vault, or delete them. Nothing is sent anywhere — the scan happens entirely on the phone.</p>
-      </div>
-      <div class="ocr glass reveal">
-        <div class="scanline"></div>
-        <div class="week">Screenshot · 14 Feb</div>
-        <div class="line"></div><div class="line short"></div>
-        <div class="code">482 619</div>
-        <div class="line short"></div>
-        <div class="found"><svg class="ic" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21.7 18-8-14a2 2 0 0 0-3.4 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.7-3z"/><path d="M12 9v4M12 17h.01"/></svg> Verification code found</div>
-        <div style="display:flex;gap:8px;margin-top:16px"><span class="pill"><svg class="ic" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Move to Vault</span><span class="pill"><svg class="ic" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg> Delete</span></div>
-      </div>
+<section id="privacy-scan" class="below">
+  <div class="wrap split flip">
+    <div class="section-head reveal">
+      <span class="chapter">Privacy Scan</span>
+      <h2>Find photos with private details.</h2>
+      <p class="lead">Privacy Scan suggests photos that may show IDs, cards, passwords or verification codes. You decide what stays and what goes to the Vault, behind Face ID.</p>
+      <p class="fine">It reads English text only, and it can miss items or flag ordinary photos.</p>
     </div>
+    <div class="shot reveal"><img src="/assets/media/shot-privacy.jpg" width="600" height="1304" loading="lazy" decoding="async" alt="CleanSight's Privacy Scan screen: Review what's personal, with a Start Privacy Scan button."></div>
   </div>
 </section>
 
-<section id="ledger">
-  <div class="wrap">
-    <div class="demo">
-      <div class="ledger glass reveal">
-        <div class="week">This week · your library</div>
-        <div class="row up"><span>New photos</span><b>+340</b></div>
-        <div class="row up"><span>New screenshots</span><b>+62</b></div>
-        <div class="row up"><span>Added to storage</span><b>+1.4 GB</b></div>
-        <div class="row ok"><span>Cleaned by you</span><b>−2.1 GB</b></div>
-        <div class="row"><span>Storage full in</span><b>~7 weeks</b></div>
-      </div>
-      <div class="section-head reveal" style="margin-bottom:0">
-        <span class="chapter">Chapter 6 — It comes back</span>
-        <h2>A clean library doesn't stay clean. So the phone keeps watch.</h2>
-        <p class="lead">Turn on Watch Mode and each night's new photos are checked on the phone — duplicates, blur, screenshots that have expired. One short review a week, a two-minute swipe. It only suggests; nothing is removed until you say so. And the ledger still tells you how fast storage is filling up, so you know before your phone does.</p>
-      </div>
+<section id="watch" class="below">
+  <div class="wrap split">
+    <div class="section-head reveal">
+      <span class="chapter">Watch Mode</span>
+      <h2>Stay clean without rescanning.</h2>
+      <p class="lead">Turn on Watch Mode and each night's new photos are checked on the device. You get one short review a week. It only suggests: nothing leaves Photos until you approve it.</p>
     </div>
+    <div class="shot reveal"><img src="/assets/media/shot-watch.jpg" width="600" height="1304" loading="lazy" decoding="async" alt="CleanSight's Watch Mode screen: Stay clean without rescanning, with a Turn on Watch Mode button."></div>
   </div>
 </section>
 
-<section id="pricing">
+<section id="pricing" class="below">
   <div class="wrap">
     <div class="section-head reveal">
-      <span class="chapter">Chapter 7 — The price</span>
-      <h2>Pay once. Or pay a little. Never weekly.</h2>
-      <p class="lead">Scanning is free forever. Pro unlocks cleaning, compression and the vault. Prices are shown in the app before you buy; subscriptions cancel from your Apple account in one tap.</p>
+      <span class="chapter">Pricing</span>
+      <h2>Scan free. Clean up with Pro.</h2>
+      <p class="lead">Scanning costs nothing. Opening the results and every clean-up action need Pro, on whichever plan suits you.</p>
     </div>
     <div class="plans">
-      <div class="plan glass lead reveal"><span class="badge">Most honest</span><div class="price">$49.99 <small>once</small></div><p>Lifetime. Buy it, own it. Photo cleanup is a job you finish — so we don't charge you forever for it.</p></div>
-      <div class="plan glass reveal"><div class="price">$39.99 <small>/ year</small></div><p>Annual, with a free trial where eligible. Best if you like the weekly ledger keeping watch.</p></div>
-      <div class="plan glass reveal"><div class="price">$4.99 <small>/ month</small></div><p>Monthly. Clean the backlog, cancel, come back when the pile is tall again. No hard feelings.</p></div>
+      <div class="plan glass reveal"><span class="name">Monthly</span><div class="price">$4.99 <small>a month</small></div><p>Clear the backlog, then cancel whenever you like.</p></div>
+      <div class="plan glass reveal"><span class="name">Annual</span><div class="price">$39.99 <small>a year</small></div><p>Includes a 3-day free trial for eligible new subscribers.</p></div>
+      <div class="plan glass reveal"><span class="name">Lifetime</span><div class="price">$49.99 <small>once</small></div><p>One payment. No subscription.</p></div>
     </div>
-    <div class="never glass reveal"><span class="never-ic"><svg class="ic" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m4.9 4.9 14.2 14.2"/></svg></span><span><b>No weekly plan.</b> 74% of cleaner apps charge by the week. It's the pattern regulators are now chasing, and it's the opposite of honest.</span></div>
+    <p class="fine reveal" style="margin-top:14px">US prices. The App Store shows the price in your currency before you buy. Subscriptions renew until you cancel in your Apple account settings.</p>
   </div>
 </section>
 
-<section id="faq">
+<section id="faq" class="below">
   <div class="wrap">
     <div class="section-head reveal"><span class="chapter">Questions</span><h2>Straight answers.</h2></div>
-    <details><summary>Do my photos leave my phone?</summary><p>No. Duplicate detection, blur detection, reading the text in screenshots — everything runs on your device. CleanSight has no photo server and no account. Only anonymous usage and crash diagnostics are sent, plus your purchase receipt — never a photo.</p></details>
-    <details><summary>Does deleting actually free space?</summary><p>Not immediately, on any app. iOS keeps deleted photos in <em>Recently Deleted</em> for 30 days. CleanSight reports "moved to Recently Deleted" honestly and shows you how to empty it in Photos when you're ready.</p></details>
-    <details><summary>What about photos in iCloud?</summary><p>With "Optimize iPhone Storage" on, many originals live in iCloud with only a preview on the phone. CleanSight marks every one with a ☁︎ so you know: deleting removes it from iCloud too, and playing or compressing it needs a download first — which the app does for you, with progress.</p></details>
-    <details><summary>Can it delete something I wanted?</summary><p>Not without you. Every group is reviewed, every batch is confirmed, and there's an undo. Apple keeps a 30-day safety net on top.</p></details>
-    <details><summary>Why no weekly plan?</summary><p>Because weekly pricing exists to make a $416-a-year bill look like $8. We'd rather you buy it once.</p></details>
+    <details><summary>Do my photos leave my phone?</summary><p>No. Finding duplicates, spotting blur and reading the text in screenshots all happen on your iPhone, and there is no CleanSight account. Usage statistics, crash reports and purchase data are sent, as the <a href="/privacy/">privacy policy</a> describes. A photo never is.</p></details>
+    <details><summary>What is free and what needs Pro?</summary><p>Scanning is free. Opening what a scan found, and every action that removes or rewrites something, needs Pro.</p></details>
+    <details><summary>Does deleting free up space straight away?</summary><p>Not on any app. iOS keeps deleted photos in Recently Deleted for 30 days, and CleanSight says so instead of claiming the space is already free.</p></details>
+    <details><summary>Can it delete something I wanted to keep?</summary><p>Not without you. Bulk deletion always has a review step, and iOS holds removed photos in Recently Deleted for 30 days.</p></details>
+    <details><summary>What about photos stored in iCloud?</summary><p>CleanSight marks which originals are in iCloud and which are on the device, so you know what a delete affects.</p></details>
   </div>
 </section>
 
 <section class="closing" id="download">
   <div class="wrap">
-    <span class="chapter reveal">The ending</span>
-    <h2 class="reveal">Make room for what matters.</h2>
-    <p class="lead reveal" style="text-align:center">CleanSight is on the App Store for iPhone and iPad. Scan your library free and see what it finds.</p>
-    <p class="reveal"><a class="btn btn-primary" href="https://apps.apple.com/app/id6814124358">Download on the App Store</a></p>
-    <p class="store-note reveal">iPhone &amp; iPad · iOS 18 or later · Free to scan</p>
+    <h2 class="reveal">Reclaim your photo storage.</h2>
+    <p class="lead reveal" style="text-align:center">CleanSight is on the App Store for iPhone and iPad.</p>
+    <p class="reveal"><a class="btn btn-primary" id="closeCta" href="https://apps.apple.com/app/id6814124358">Download on the App Store</a></p>
+    <p class="store-note reveal">iOS 18 or later · Scanning is free</p>
   </div>
 </section>
+
+<div class="sticky-cta" id="stickyCta"><a class="btn btn-primary" href="https://apps.apple.com/app/id6814124358" tabindex="-1">Download on the App Store</a></div>
 </main>
   <footer>
     <div class="wrap">
       <div>
-        <a class="brand" href="/"><img src="/assets/mark.png" alt="">Clean<span class="light">Sight</span></a>
+        <a class="brand" href="/"><img src="/assets/mark.png" alt="" width="32" height="32"><span class="wm">Clean<span class="light">Sight</span></span></a>
         <p style="margin-top:10px;max-width:52ch">Photo analysis stays on your device. Limited usage, diagnostic and purchase information is processed as described in our privacy policy.</p>
         <p style="margin-top:14px">© 2026 BITESIGHT LTD · 5 Brayford Square, London, E1 0SG, United Kingdom</p>
       </div>
