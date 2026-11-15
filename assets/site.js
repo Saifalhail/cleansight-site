@@ -86,6 +86,10 @@
       });
       update();
     });
+    // On phones the hero has no button (title and motion only), so the bar
+    // waits until the motion has scrolled away.
+    var heroVisual = document.querySelector('.hero-visual');
+    if (heroCta.offsetParent === null && heroVisual) heroCta = heroVisual;
     watch.observe(heroCta);
     if (closeCta) watch.observe(closeCta);
   }
