@@ -84,6 +84,16 @@ section{padding:64px 0}
 .hero .actions{display:flex;flex-direction:column;gap:10px;align-self:stretch}
 .store-note{font-size:13px;color:var(--ink2)}
 .hero-visual{position:relative;width:min(100%,460px);margin:-6px auto 0}
+/* phones: the first screen is the title and the motion. The download button
+   lives in the sticky bar (site.js shows it while the hero button is hidden),
+   and the intro line follows the motion. */
+@media(max-width:899px){
+  .hero-copy{display:contents}
+  .hero h1{order:1}
+  .hero-visual{order:2;width:min(100%,400px)}
+  .hero .lead{order:3;margin-top:4px}
+  .hero .actions{display:none}
+}
 @media(min-width:900px){
   .hero{padding:44px 0 0}
   .hero .pill{display:inline-flex}
