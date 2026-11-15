@@ -89,9 +89,3 @@
   document.getElementById('btnDel').addEventListener('click', function () { commit(-1); });
   fillBack(); stats();
 })();
-function launchSubmit(ev) {
-  ev.preventDefault();
-  var email = document.getElementById('email').value;
-  window.location.href = 'mailto:info@cleansight.ai?subject=' + encodeURIComponent('CleanSight launch access') + '&body=' + encodeURIComponent('Please add ' + email + ' to the launch list.');
-  return false;
-}
